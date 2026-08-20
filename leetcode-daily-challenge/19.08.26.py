@@ -37,8 +37,9 @@ Constraints:
 reservedSeats[i] == [rowi, seati]
 1 <= rowi <= n
 1 <= seati <= 10
-All reservedSeats[i] are distinct'''
-code:class Solution:
+All reservedSeats[i] are distinct
+code:'''
+class Solution:
     def maxNumberOfFamilies(self, n: int, reservedSeats: List[List[int]]) -> int:
         from collections import defaultdict
 
