@@ -29,9 +29,10 @@ Output: 0
 Constraints:
 
 1 <= stoneValue.length <= 500
-1 <= stoneValue[i] <= 106'''
-'''code:
-       from typing import List
+1 <= stoneValue[i] <= 106
+
+code:'''
+from typing import List
 from bisect import bisect_left
 
 
@@ -176,4 +177,4 @@ class Solution:
                     dp[l][r] - prefix[l]
                 )
 
-        return dp[0][n - 1]'''
+        return dp[0][n - 1]
