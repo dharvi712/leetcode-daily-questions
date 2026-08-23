@@ -1,4 +1,4 @@
-You are given a positive integer n. Determine whether n is divisible by the sum of the following two values:
+'''You are given a positive integer n. Determine whether n is divisible by the sum of the following two values:
 
 The digit sum of n (the sum of its digits).
 
@@ -32,7 +32,7 @@ Since 23 is not divisible by the sum (2 + 3 = 5) plus product (2 * 3 = 6) of its
 
 Constraints:
 
-1 <= n <= 106
+1 <= n <= 106'''
 
 class Solution(object):
     def checkDivisibility(self, n):
